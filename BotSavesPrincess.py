@@ -35,7 +35,7 @@ def displayPathtoPrincess(n, grid):
             print("LEFT")
             cDistance -= 1
 
-    #we can also combine the while loop
+    #we can also combine the while loop, but then it will move it zigzag
     '''
     while (rDistance != 0 or cDistance != 0):
         if (rDistance < 0):
