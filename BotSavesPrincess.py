@@ -35,6 +35,23 @@ def displayPathtoPrincess(n, grid):
             print("LEFT")
             cDistance -= 1
 
+    #we can also combine the while loop
+    '''
+    while (rDistance != 0 or cDistance != 0):
+        if (rDistance < 0):
+            print("DOWN")
+            rDistance += 1
+        elif (rDistance > 0):
+            print("UP")
+            rDistance -= 1
+        if (cDistance < 0):
+            print("RIGHT")
+            cDistance += 1
+        elif (cDistance > 0):
+            print("LEFT")
+            cDistance -= 1 
+        '''
+
 
 m = int(input())
 grid = []
